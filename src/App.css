@@ -1,0 +1,182 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h3 {
+  margin-top: 20px;
+}
+.weather-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 20px 26px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.weather-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.info-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  color: #ffff; /* Text color for readability */
+}
+
+.weather-form {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.weather-input {
+  padding: 10px;
+  width: 60%;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  margin-right: 10px;
+}
+
+.weather-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: 2px solid #4caf50;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weather-button:hover {
+  background-color: #45a049;
+}
+
+.weather-info {
+  position: relative;
+  margin-top: 20px;
+  padding: 20px;
+  color: #ffff;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background image */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.075); /* Semi-transparent white */
+  border-radius: 5px; /* Match the border radius of the weather-info box */
+  z-index: 1; /* Ensure the overlay sits on top of the background */
+}
+
+.weather-info h3,
+.weather-info p {
+  position: relative; /* Allow text to sit above the overlay */
+  z-index: 2; /* Ensure text is above the overlay */
+}
+
+.weather-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  font-size: 1.1rem;
+  color: #ffff;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.info-box {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #dfe4ea;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-box p {
+  font-size: 1rem;
+  color: #555;
+}.favorite-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorite-button:hover {
+  background-color: #0056b3;
+}
+.favorites-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.favorites-container h2 {
+  margin-bottom: 10px;
+}
+
+.favorites-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.favorites-container li {
+  margin: 5px 0;
+}
